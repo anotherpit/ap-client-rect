@@ -1,7 +1,7 @@
 {
-  "name": "angular-rect",
-  "version": "0.1.0",
-  "homepage": "https://github.com/anotherpit/angular-rect",
+  "name": "ap-client-rect",
+  "version": "0.1.1",
+  "homepage": "https://github.com/anotherpit/ap-client-rect",
   "authors": [
     "anotherpit <anotherpit@gmail.com>"
   ],
@@ -19,7 +19,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "dependencies": {
     "angular": ">=1.2"
   }
 }

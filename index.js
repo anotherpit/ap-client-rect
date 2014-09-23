@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc module
- * @name anotherpit/angular-rect
+ * @name anotherpit/apClientRect
  * @author anotherpit <anotherpit@gmail.com>
  */
-var module = angular.module('anotherpit/angular-rect', ['ng']);
+var module = angular.module('anotherpit/apClientRect', ['ng']);
 
 /**
  * @ngdoc service
- * @name getBoundingClientRect
+ * @name apClientRect
  * @kind function
  *
  * @description
@@ -21,8 +21,8 @@ var module = angular.module('anotherpit/angular-rect', ['ng']);
  * @returns {obejct} TextRectangle-compatible object with top, right, bottom, left, width and height
  * @see https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMClientRect
  */
-module.factory('getBoundingClientRect', ['$document', function($document) {
-    return function getBoundingClientRect(element) {
+module.factory('apClientRect', ['$document', function($document) {
+    return function apClientRect(element) {
         if (angular.isElement(element)) {
             var dom = element.nodeName ? element : element[0];
             var rect = angular.copy(dom.getBoundingClientRect());

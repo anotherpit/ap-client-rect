@@ -1,5 +1,5 @@
-angular-rect
-============
+ap-client-rect
+==============
 
 AngularJS × Element.getBoundingClientRect()
 
